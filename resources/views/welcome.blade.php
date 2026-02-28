@@ -109,7 +109,7 @@
             Book a Call
             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
           </button>
-          <a href="sms:+17143159146?&body=Hey%20Robin%2C%20found%20you%20on%20fractional.sh%20%E2%80%94%20trying%20to%20figure%20out%20where%20AI%20fits%20in%20our%20company%2C%20and%20I%20might%20need%20some%20help." class="inline-flex items-center justify-center gap-2 px-6 py-4 font-mono text-sm uppercase tracking-wider transition-all duration-300 bg-zinc-900/50 border border-zinc-700 text-zinc-100 hover:border-zinc-300 hover:bg-zinc-900 backdrop-blur-sm">
+          <a href="sms:+17143159146?&body=Hey%20Robin%2C%20found%20you%20on%20fractional.sh%20%E2%80%94%20exploring%20AI.%20Would%20love%20to%20connect." class="inline-flex items-center justify-center gap-2 px-6 py-4 font-mono text-sm uppercase tracking-wider transition-all duration-300 bg-zinc-900/50 border border-zinc-700 text-zinc-100 hover:border-zinc-300 hover:bg-zinc-900 backdrop-blur-sm">
             Text Me
           </a>
         </div>
@@ -411,7 +411,7 @@
           </button>
         </div>
         <p class="text-zinc-500 font-mono text-sm mb-4">
-          or text <a href="sms:+17143159146?&body=Hey%20Robin%2C%20found%20you%20on%20fractional.sh%20%E2%80%94%20trying%20to%20figure%20out%20where%20AI%20fits%20in%20our%20company%2C%20and%20I%20might%20need%20some%20help." class="text-zinc-300 hover:text-emerald-400 transition-colors">+1 714-315-9146</a>
+          or text <a href="sms:+17143159146?&body=Hey%20Robin%2C%20found%20you%20on%20fractional.sh%20%E2%80%94%20exploring%20AI.%20Would%20love%20to%20connect." class="text-zinc-300 hover:text-emerald-400 transition-colors">+1 714-315-9146</a>
         </p>
         <p class="text-zinc-500 text-lg font-light max-w-lg mx-auto">
           30-minute call. No pitch. Just figuring out if there's a fit.
@@ -427,7 +427,7 @@
           <span>◆</span>
           <a href="mailto:robin@fractional.sh" class="hover:text-emerald-400 transition-colors">robin@fractional.sh</a>
           <span>◆</span>
-          <a href="sms:+17143159146?&body=Hey%20Robin%2C%20found%20you%20on%20fractional.sh%20%E2%80%94%20trying%20to%20figure%20out%20where%20AI%20fits%20in%20our%20company%2C%20and%20I%20might%20need%20some%20help." class="hover:text-emerald-400 transition-colors">+1 714-315-9146</a>
+          <a href="sms:+17143159146?&body=Hey%20Robin%2C%20found%20you%20on%20fractional.sh%20%E2%80%94%20exploring%20AI.%20Would%20love%20to%20connect." class="hover:text-emerald-400 transition-colors">+1 714-315-9146</a>
           <span>◆</span>
         </div>
         <div>© 2026</div>
