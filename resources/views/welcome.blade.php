@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>fractional.sh — Fractional AI + Product Co-founder</title>
+  <link rel="icon" type="image/png" href="/favicon.png">
 
   <meta name="description" content="I help founders ship the right product, faster — with AI wired into your product, your workflows, and your team.">
 
@@ -11,14 +12,14 @@
   <meta property="og:url" content="https://fractional.sh">
   <meta property="og:title" content="fractional.sh — Fractional AI + Product Co-founder">
   <meta property="og:description" content="I help founders ship the right product, faster — with AI wired into your product, your workflows, and your team.">
-  <meta property="og:image" content="https://fractional.sh/og-image.png">
+  <meta property="og:image" content="https://fractional.sh/images/og-image.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="fractional.sh — Fractional AI + Product Co-founder">
   <meta name="twitter:description" content="I help founders ship the right product, faster — with AI wired into your product, your workflows, and your team.">
-  <meta name="twitter:image" content="https://fractional.sh/og-image.png">
+  <meta name="twitter:image" content="https://fractional.sh/images/og-image.png">
 
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
