@@ -235,9 +235,9 @@
         <!-- Card 2 -->
         <div class="border border-emerald-500/30 bg-emerald-950/40 backdrop-blur-sm p-8 flex flex-col relative overflow-hidden group hover:border-emerald-500/60 transition-all duration-300">
           <div class="absolute top-0 left-0 w-full h-1 bg-emerald-500"></div>
-          <div class="font-mono text-sm text-emerald-500 mb-4 uppercase tracking-widest border-b border-zinc-800 pb-4">~8 Hrs/Wk</div>
+          <div class="font-mono text-sm text-emerald-500 mb-4 uppercase tracking-widest border-b border-zinc-800 pb-4">Ongoing</div>
           <h3 class="text-2xl font-medium mb-2">Fractional Co-founder</h3>
-          <div class="font-mono text-lg mb-6">$10K<span class="text-zinc-500 text-sm">/MO</span></div>
+          <div class="font-mono text-lg mb-6">$15K<span class="text-zinc-500 text-sm">/MO</span></div>
           <p class="text-zinc-400 font-light text-sm leading-relaxed flex-grow">
             Ongoing product and AI leadership. I join your standups, scope features, make the hard calls on your roadmap, and keep your team shipping. The experienced founder in the room you can't justify hiring full-time.
           </p>
@@ -248,7 +248,7 @@
           <div class="absolute top-0 left-0 w-full h-1 bg-emerald-500"></div>
           <div class="font-mono text-sm text-emerald-500 mb-4 uppercase tracking-widest border-b border-zinc-800 pb-4">Project-Based</div>
           <h3 class="text-2xl font-medium mb-2">Product Sprint</h3>
-          <div class="font-mono text-lg mb-6">$15–25K</div>
+          <div class="font-mono text-lg mb-6">From $20K</div>
           <p class="text-zinc-400 font-light text-sm leading-relaxed flex-grow">
             You have something specific — a feature, an AI integration, an internal tool. I scope it tight, build it fast, and ship it in weeks. No committees, no scope creep.
           </p>
