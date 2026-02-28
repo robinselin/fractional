@@ -126,11 +126,11 @@
 
         {{-- Center content: headline + desc + photo --}}
         <div class="relative z-10 flex-1 flex flex-col items-center justify-center px-16 text-center">
-            <h1 class="text-[64px] font-normal text-white leading-[1.1] uppercase max-w-[900px]" style="letter-spacing: -0.02em;">
+            <h1 class="mt-16 text-[80px] font-normal text-white leading-[1.1] uppercase max-w-[1000px]" style="letter-spacing: -0.02em;">
                 Cut through the AI noise.<br><span class="text-emerald-500">Ship what matters.</span>
             </h1>
             <div class="w-10 h-[3px] bg-emerald-500 mt-8 mb-8 mx-auto"></div>
-            <p class="text-[21px] text-zinc-400 leading-relaxed max-w-[850px] font-light" style="font-family: system-ui, sans-serif;">
+            <p class="text-[32px] text-zinc-400 leading-relaxed max-w-[900px] font-light" style="font-family: system-ui, sans-serif;">
                 I help founders ship the right product, faster — with AI wired into your product, your workflows, and your team. <span class="text-zinc-200">Not with a slide deck. By showing up and building it with you.</span>
             </p>
 
