@@ -63,15 +63,15 @@
 
   <!-- Navigation / Header -->
   <header id="main-header" class="fixed top-[32px] sm:top-[36px] w-full z-50 transition-all duration-300 border-b bg-transparent border-transparent">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 py-3 sm:py-4 grid grid-cols-3 items-center">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 py-3 sm:py-4 flex justify-between items-center relative">
       <div class="flex items-center gap-4 sm:gap-6">
-        <div class="font-bold tracking-tighter text-lg sm:text-xl flex items-center gap-2" style="font-family: 'ConstructMono', monospace;">
+        <div class="font-normal tracking-tighter text-lg sm:text-xl flex items-center gap-2" style="font-family: 'ConstructMono', monospace;">
           <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-emerald-500 sm:w-5 sm:h-5"><polyline points="4 17 10 11 4 5"></polyline><line x1="12" x2="20" y1="19" y2="19" class="animate-blink"></line></svg>
           fractional.sh
         </div>
       </div>
-      <div class="hidden lg:block text-center text-xs font-mono text-zinc-500 uppercase tracking-widest">Fractional AI + Product Co-founder</div>
-      <div class="flex items-center justify-end">
+      <div class="hidden lg:block absolute left-1/2 -translate-x-1/2 text-xs font-mono text-zinc-500 uppercase tracking-widest">Fractional AI + Product Co-founder</div>
+      <div class="flex items-center">
         <button data-cal-link="robin-white/20min" data-cal-namespace="20min" data-cal-config='{"layout":"month_view","useSlotsViewOnSmallScreen":"true"}' class="text-xs sm:text-sm font-mono hover:text-emerald-400 transition-colors cursor-pointer">
           Book a Call ↗
         </button>
@@ -83,7 +83,7 @@
 
     <!-- HERO SECTION -->
     <section class="mb-40">
-      <div class="flex flex-col md:flex-row gap-6 mb-8">
+      <div class="flex flex-col md:flex-row gap-2 md:gap-6 mb-8">
         <div class="inline-flex items-center gap-2 px-2.5 py-1 border border-zinc-800 bg-zinc-900/50 backdrop-blur-sm rounded-full font-mono text-[10px] text-zinc-400 uppercase tracking-widest w-fit">
           Fractional AI + Product Co-founder
         </div>
