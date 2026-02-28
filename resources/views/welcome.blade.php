@@ -56,8 +56,8 @@
   <div id="urgency-banner" class="fixed top-0 w-full z-50 bg-emerald-500 text-zinc-950">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 py-2 flex justify-center items-center gap-2 sm:gap-3 font-mono text-[10px] sm:text-sm tracking-wide">
       <span class="w-1.5 h-1.5 rounded-full bg-zinc-950 animate-pulse shrink-0"></span>
-      <span><strong>1 spot open for {{ 'Q' . ceil(now()->month / 3) . ' ' . now()->year }}</strong><span class="hidden sm:inline"> — currently booked through {{ now()->endOfQuarter()->translatedFormat('F') }}</span></span>
-      <button data-cal-link="robin-white/20min" data-cal-namespace="20min" data-cal-config='{"layout":"month_view","useSlotsViewOnSmallScreen":"true"}' class="underline underline-offset-2 hover:no-underline font-bold ml-1 shrink-0 cursor-pointer">Grab it →</button>
+      <span><strong>Only 1 spot open</strong></span>
+      <button data-cal-link="robin-white/20min" data-cal-namespace="20min" data-cal-config='{"layout":"month_view","useSlotsViewOnSmallScreen":"true"}' class="underline underline-offset-2 hover:no-underline font-bold ml-1 shrink-0 cursor-pointer">Book a call →</button>
     </div>
   </div>
 
@@ -156,7 +156,7 @@
     <section class="mb-32 scroll-mt-32" id="about">
       <div class="flex items-center gap-4 mb-12 pb-4 border-b border-zinc-800/60">
         <span class="font-mono text-emerald-500 text-sm tracking-widest">02</span>
-        <h2 class="font-mono text-zinc-400 text-sm tracking-widest uppercase">Operator</h2>
+        <h2 class="font-mono text-zinc-400 text-sm tracking-widest uppercase">The Operator</h2>
       </div>
       <div class="grid md:grid-cols-12 gap-12 items-start">
         <div class="md:col-span-4 lg:col-span-3">
@@ -241,6 +241,9 @@
           <p class="text-zinc-400 font-light text-sm leading-relaxed flex-grow">
             Ongoing product and AI leadership. I join your standups, scope features, make the hard calls on your roadmap, and keep your team shipping. The experienced founder in the room you can't justify hiring full-time.
           </p>
+          <div class="mt-6 pt-4 border-t border-zinc-800/60 font-mono text-xs text-zinc-500 uppercase tracking-wider">
+            Month-to-month. Not the right fit? We shake hands and part ways.
+          </div>
         </div>
 
         <!-- Card 3 -->
@@ -256,10 +259,41 @@
       </div>
     </section>
 
-    <!-- 04 CAPABILITIES -->
-    <section class="mb-32 scroll-mt-32" id="capabilities">
+    <!-- 04 HOW I WORK -->
+    <section class="mb-32 scroll-mt-32" id="process">
       <div class="flex items-center gap-4 mb-12 pb-4 border-b border-zinc-800/60">
         <span class="font-mono text-emerald-500 text-sm tracking-widest">04</span>
+        <h2 class="font-mono text-zinc-400 text-sm tracking-widest uppercase">How I Work</h2>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="space-y-4">
+          <div class="font-mono text-emerald-500 text-sm tracking-widest">Step 01</div>
+          <h3 class="text-2xl font-medium tracking-tight">Listen</h3>
+          <p class="text-zinc-400 font-light leading-relaxed">
+            I sit in your meetings, map your workflows, and find where AI creates real leverage. No assumptions — just watching how your team actually works.
+          </p>
+        </div>
+        <div class="space-y-4">
+          <div class="font-mono text-emerald-500 text-sm tracking-widest">Step 02</div>
+          <h3 class="text-2xl font-medium tracking-tight">Build</h3>
+          <p class="text-zinc-400 font-light leading-relaxed">
+            I scope the first win, cut what doesn't matter, and build it with your team. A working prototype — not a slide deck.
+          </p>
+        </div>
+        <div class="space-y-4">
+          <div class="font-mono text-emerald-500 text-sm tracking-widest">Step 03</div>
+          <h3 class="text-2xl font-medium tracking-tight">Ship</h3>
+          <p class="text-zinc-400 font-light leading-relaxed">
+            We ship it. Then I either stay on as your fractional co-founder, or hand you a clear roadmap and walk away. Your call.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 05 CAPABILITIES -->
+    <section class="mb-32 scroll-mt-32" id="capabilities">
+      <div class="flex items-center gap-4 mb-12 pb-4 border-b border-zinc-800/60">
+        <span class="font-mono text-emerald-500 text-sm tracking-widest">05</span>
         <h2 class="font-mono text-zinc-400 text-sm tracking-widest uppercase">Capabilities</h2>
       </div>
       <div class="space-y-0 divide-y divide-zinc-800/60">
@@ -306,10 +340,10 @@
       </div>
     </section>
 
-    <!-- 05 OPERATING PRINCIPLES -->
+    <!-- 06 OPERATING PRINCIPLES -->
     <section class="mb-32 scroll-mt-32" id="principles">
       <div class="flex items-center gap-4 mb-12 pb-4 border-b border-zinc-800/60">
-        <span class="font-mono text-emerald-500 text-sm tracking-widest">05</span>
+        <span class="font-mono text-emerald-500 text-sm tracking-widest">06</span>
         <h2 class="font-mono text-zinc-400 text-sm tracking-widest uppercase">Operating Principles</h2>
       </div>
       <div class="border-2 border-zinc-700 p-[3px]">
@@ -333,10 +367,50 @@
       </div>
     </section>
 
-    <!-- 06 FIT CHECK -->
+    <!-- 07 FAQ -->
+    <section class="mb-32 scroll-mt-32" id="faq">
+      <div class="flex items-center gap-4 mb-12 pb-4 border-b border-zinc-800/60">
+        <span class="font-mono text-emerald-500 text-sm tracking-widest">07</span>
+        <h2 class="font-mono text-zinc-400 text-sm tracking-widest uppercase">FAQ</h2>
+      </div>
+      <div class="space-y-12 max-w-3xl">
+        <div>
+          <h3 class="text-lg font-medium text-emerald-400 mb-3 font-mono tracking-tight" style="text-transform: none;">How is this different from consulting?</h3>
+          <p class="text-zinc-400 font-light leading-relaxed">
+            Consultants deliver recommendations. I deliver shipped software. I sit in your standups, write code with your team, and make the product calls. If nothing ships, I've failed.
+          </p>
+        </div>
+        <div>
+          <h3 class="text-lg font-medium text-emerald-400 mb-3 font-mono tracking-tight" style="text-transform: none;">What does a typical week look like?</h3>
+          <p class="text-zinc-400 font-light leading-relaxed">
+            Standups, async in Slack, 1-2 deep work blocks building or scoping, and available for ad-hoc calls when decisions need to be made. Some weeks are heavier, some lighter — it depends on what we're shipping.
+          </p>
+        </div>
+        <div>
+          <h3 class="text-lg font-medium text-emerald-400 mb-3 font-mono tracking-tight" style="text-transform: none;">What if I already have a CTO?</h3>
+          <p class="text-zinc-400 font-light leading-relaxed">
+            Great — I'm not here to replace them. I handle product strategy and AI integration so your CTO can focus on engineering. Think of me as the product co-founder your CTO wishes they had.
+          </p>
+        </div>
+        <div>
+          <h3 class="text-lg font-medium text-emerald-400 mb-3 font-mono tracking-tight" style="text-transform: none;">What if it's not a good fit?</h3>
+          <p class="text-zinc-400 font-light leading-relaxed">
+            Month-to-month. No contracts. If it's not working after the first month, we shake hands and part ways. No guilt.
+          </p>
+        </div>
+        <div>
+          <h3 class="text-lg font-medium text-emerald-400 mb-3 font-mono tracking-tight" style="text-transform: none;">Do I need to be technical?</h3>
+          <p class="text-zinc-400 font-light leading-relaxed">
+            No. I translate between business goals and technical execution. That's the whole point — you tell me what the business needs, I figure out how to build it.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 08 FIT CHECK -->
     <section class="mb-32 scroll-mt-32" id="fit">
       <div class="flex items-center gap-4 mb-12 pb-4 border-b border-zinc-800/60">
-        <span class="font-mono text-emerald-500 text-sm tracking-widest">06</span>
+        <span class="font-mono text-emerald-500 text-sm tracking-widest">08</span>
         <h2 class="font-mono text-zinc-400 text-sm tracking-widest uppercase">Fit Check</h2>
       </div>
       <div class="grid md:grid-cols-2 gap-8 lg:gap-16">
