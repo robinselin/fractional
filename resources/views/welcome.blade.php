@@ -186,7 +186,7 @@
             <div class="flex justify-between items-center mt-3 font-mono text-[10px] tracking-[0.2em] uppercase">
               <div>
                 <span class="text-emerald-500">ID: Robin_White</span>
-                <div class="text-zinc-500 mt-1">Irvine, CA · {{ now('America/Los_Angeles')->format('T') }}</div>
+                <div class="text-zinc-500 mt-1">Newport Beach, CA · {{ now('America/Los_Angeles')->format('T') }}</div>
               </div>
               <div class="flex items-center gap-3">
                 <a href="https://www.linkedin.com/in/robinswhite/" target="_blank" rel="noopener noreferrer" class="text-zinc-600 hover:text-emerald-400 transition-colors">
